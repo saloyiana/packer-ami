@@ -31,7 +31,6 @@ steps{
  container('packer') 
 {
 sh '''
-cd packer-ami/
 packer build packer.json
 '''
  }
